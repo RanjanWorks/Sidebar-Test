@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="google-signin-client_id" content="379134479128-f2agqdbcv1bklm601ct88morbtm2vhc5.apps.googleusercontent.com.apps.googleusercontent.com">
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <link rel="stylesheet" href="main.css">
+    <title>home</title>
+</head>
+<body>
+  <header>
+    <i onclick="openBox()" class="material-icons">menu</i>
+    <h2>Menubar Testing</h2>
+
+  </header>
+  <div id="bar" class="sidebar">
+    <ul>
+        <li class="active" data-url="main.html">Home</li>
+        <li data-url="about.html">About</li>
+        <li data-url="blog.html">blog</li>
+        <li data-url="contact.html">Contact</li>
+    </ul>
+      </div>
+
+
+ <div id="main" class="main">
+    <h1>this is home</h1>
+ </div>
+
+  <div class="overlay"></div>
+  <div class="loading">
+      <div class="bar"></div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
